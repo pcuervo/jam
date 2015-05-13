@@ -49,5 +49,23 @@ define('HTTP_OK', 			200);
 define('HTTP_BAD_REQUEST', 	404);
 define('HTTP_NOT_FOUND', 	404);
 
+/*
+|--------------------------------------------------------------------------
+| API ERROR CODES AND MESSAGES
+|--------------------------------------------------------------------------
+|
+|
+|
+*/
+
+// Error Codes
+define('NO_ERROR', 			0);
+define('MISSING_ARGUMENT',	1);
+define('UNABLE_TO_INSERT',	2);
+define('UNABLE_TO_DELETE',	3);
+
+// Error Messages
+define('MISSING_ARGUMENT_MSG', 'Missing argument(s).');
+
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
